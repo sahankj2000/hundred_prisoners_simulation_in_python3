@@ -68,5 +68,5 @@ for i in tqdm(range(number_of_strategic_pick_games),desc='Playing Strategic Pick
 print('Number of prisoners =',number_of_prisoners)
 print('Number of random pick games=',number_of_random_pick_games)
 print('Number of strategic pick games=',number_of_strategic_pick_games)
-print('Number of random pick wins =',games_won_from_random_pick,' ',(games_won_from_random_pick/number_of_random_pick_games)*100,'%')
-print('Number of strategic pick wins =',games_won_from_strategic_pick,' ',(games_won_from_strategic_pick/number_of_strategic_pick_games)*100,'%')
+print('Number of random pick wins =',games_won_from_random_pick,' (',(games_won_from_random_pick/number_of_random_pick_games)*100,'% )')
+print('Number of strategic pick wins =',games_won_from_strategic_pick,' (',(games_won_from_strategic_pick/number_of_strategic_pick_games)*100,'% )')
